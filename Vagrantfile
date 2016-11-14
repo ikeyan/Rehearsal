@@ -41,7 +41,7 @@ unzip $ZIPFILE
 mv z3-4.4.1-x64-ubuntu-14.04 z3
 echo 'PATH=/home/vagrant/z3/bin:$PATH' >> .profile
 
-mkdir -p /home/vagrant/R/x86_64-pc-linux-gnu-library/3.2
+mkdir -p /home/vagrant/R/x86_64-pc-linux-gnu-library/3.3
 R -e 'install.packages("ggplot2", repos="http://cran.us.r-project.org")'
 R -e 'install.packages("sitools", repos="http://cran.us.r-project.org")'
 R -e 'install.packages("scales", repos="http://cran.us.r-project.org")'
