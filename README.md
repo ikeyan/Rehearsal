@@ -18,6 +18,7 @@ After the virtual machine is built, SSH into the machine and build Rehearsal:
     vagrant ssh
     cd /vagrant
     sbt compile
+    sbt assembly
 
 Next, run the benchmarks:
 
